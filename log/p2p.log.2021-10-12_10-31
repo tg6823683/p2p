@@ -1,0 +1,3 @@
+2021-10-12 10:31:59 Tue , INFO , loginparas.py test01_get_img_verify_code line 37 , r = 0.6914654201277161 response = <Response [200]>
+2021-10-12 10:31:59 Tue , INFO , loginparas.py test01_get_img_verify_code line 37 , r = 64262165 response = <Response [200]>
+2021-10-12 10:31:59 Tue , INFO , loginparas.py test01_get_img_verify_code line 37 , r =  response = <Response [404]>

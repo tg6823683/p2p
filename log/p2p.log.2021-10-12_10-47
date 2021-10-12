@@ -1,0 +1,93 @@
+2021-10-12 10:41:41 Tue , INFO , loginparas.py test01_get_img_verify_code line 37 , r = 0.07339291421755056 response = <Response [200]>
+2021-10-12 10:41:41 Tue , INFO , loginparas.py test01_get_img_verify_code line 37 , r = 49973278 response = <Response [200]>
+2021-10-12 10:41:41 Tue , INFO , loginparas.py test01_get_img_verify_code line 37 , r =  response = <Response [404]>
+2021-10-12 10:43:24 Tue , INFO , loginparas.py test01_get_img_verify_code line 38 , r = 0.3972989830938576 response = <Response [200]>
+2021-10-12 10:43:24 Tue , INFO , loginparas.py test01_get_img_verify_code line 38 , r = 38196498 response = <Response [200]>
+2021-10-12 10:43:24 Tue , INFO , loginparas.py test01_get_img_verify_code line 38 , r =  response = <Response [404]>
+2021-10-12 10:43:24 Tue , INFO , loginparas.py test04_getSmsCode_Success line 52 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:43:24 Tue , INFO , loginparas.py test05_getSmsCode_wrong_imgCode line 67 , sms ge response={'status': 100, 'description': '图片验证码错误'}
+2021-10-12 10:43:25 Tue , INFO , loginparas.py test06_getSmsCode_null_imgCode line 78 , sms ge response={'status': 100, 'description': '图片验证码错误'}
+2021-10-12 10:43:25 Tue , INFO , loginparas.py test07_getSmsCode_null_telNum line 89 , sms ge response={'status': 100}
+2021-10-12 10:43:25 Tue , INFO , loginparas.py test08_getSmsCode_Fail line 97 , sms ge response={'status': 100, 'description': '图片验证码错误'}
+2021-10-12 10:43:25 Tue , INFO , loginparas.py test09_register_params_must line 109 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:43:25 Tue , INFO , loginparas.py test09_register_params_must line 113 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:43:25 Tue , INFO , loginparas.py test10_register_params_all line 125 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:43:25 Tue , INFO , loginparas.py test10_register_params_all line 129 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:43:25 Tue , INFO , loginparas.py test11_register_phone_exist_fail line 140 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:43:26 Tue , INFO , loginparas.py test11_register_phone_exist_fail line 144 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:43:26 Tue , INFO , loginparas.py test12_register_pwdNull_fail line 155 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:43:26 Tue , INFO , loginparas.py test12_register_pwdNull_fail line 159 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:43:26 Tue , INFO , loginparas.py test13_register_errorImgCode_fail line 171 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:43:26 Tue , INFO , loginparas.py test13_register_errorImgCode_fail line 175 , sms ge response={'status': 100, 'description': '验证码错误!'}
+2021-10-12 10:43:26 Tue , INFO , loginparas.py test14_register_errorSmsCode_fail line 188 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:43:26 Tue , INFO , loginparas.py test14_register_errorSmsCode_fail line 192 , sms ge response={'status': 100, 'description': '验证码错误'}
+2021-10-12 10:43:26 Tue , INFO , loginparas.py test15_register_fail line 203 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:43:26 Tue , INFO , loginparas.py test15_register_fail line 207 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:43:27 Tue , INFO , loginparas.py test16_Login_Sucess line 214 , sms ge response={'status': 200, 'description': '登录成功'}
+2021-10-12 10:43:27 Tue , INFO , loginparas.py test17_Login_userError_fail line 221 , sms ge response={'status': 100, 'description': '用户不存在'}
+2021-10-12 10:43:27 Tue , INFO , loginparas.py test18_Login_pwdNull_fail line 227 , sms ge response={'status': 100, 'description': '密码不能为空'}
+2021-10-12 10:43:27 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 233 , sms ge response={'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2021-10-12 10:43:27 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 237 , sms ge response={'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2021-10-12 10:43:27 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 241 , sms ge response={'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2021-10-12 10:43:27 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 245 , sms ge response={'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2021-10-12 10:44:27 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 250 , sms ge response={'status': 200, 'description': '登录成功'}
+2021-10-12 10:44:46 Tue , INFO , loginparas.py test01_get_img_verify_code line 38 , r = 0.45316961888603646 response = <Response [200]>
+2021-10-12 10:44:46 Tue , INFO , loginparas.py test01_get_img_verify_code line 38 , r = 58080636 response = <Response [200]>
+2021-10-12 10:44:46 Tue , INFO , loginparas.py test01_get_img_verify_code line 38 , r =  response = <Response [404]>
+2021-10-12 10:44:47 Tue , INFO , loginparas.py test04_getSmsCode_Success line 52 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:44:47 Tue , INFO , loginparas.py test05_getSmsCode_wrong_imgCode line 67 , sms ge response={'status': 100, 'description': '图片验证码错误'}
+2021-10-12 10:44:47 Tue , INFO , loginparas.py test06_getSmsCode_null_imgCode line 78 , sms ge response={'status': 100, 'description': '图片验证码错误'}
+2021-10-12 10:44:47 Tue , INFO , loginparas.py test07_getSmsCode_null_telNum line 89 , sms ge response={'status': 100}
+2021-10-12 10:44:47 Tue , INFO , loginparas.py test08_getSmsCode_Fail line 97 , sms ge response={'status': 100, 'description': '图片验证码错误'}
+2021-10-12 10:44:47 Tue , INFO , loginparas.py test09_register_params_must line 109 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:44:47 Tue , INFO , loginparas.py test09_register_params_must line 113 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:44:48 Tue , INFO , loginparas.py test10_register_params_all line 125 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:44:48 Tue , INFO , loginparas.py test10_register_params_all line 129 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:44:48 Tue , INFO , loginparas.py test11_register_phone_exist_fail line 140 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:44:48 Tue , INFO , loginparas.py test11_register_phone_exist_fail line 144 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:44:48 Tue , INFO , loginparas.py test12_register_pwdNull_fail line 155 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:44:48 Tue , INFO , loginparas.py test12_register_pwdNull_fail line 159 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:44:48 Tue , INFO , loginparas.py test13_register_errorImgCode_fail line 171 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:44:48 Tue , INFO , loginparas.py test13_register_errorImgCode_fail line 175 , sms ge response={'status': 100, 'description': '验证码错误!'}
+2021-10-12 10:44:49 Tue , INFO , loginparas.py test14_register_errorSmsCode_fail line 188 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:44:49 Tue , INFO , loginparas.py test14_register_errorSmsCode_fail line 192 , sms ge response={'status': 100, 'description': '验证码错误'}
+2021-10-12 10:44:49 Tue , INFO , loginparas.py test15_register_fail line 203 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:44:49 Tue , INFO , loginparas.py test15_register_fail line 207 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:44:49 Tue , INFO , loginparas.py test16_Login_Sucess line 214 , sms ge response={'status': 200, 'description': '登录成功'}
+2021-10-12 10:44:49 Tue , INFO , loginparas.py test17_Login_userError_fail line 221 , sms ge response={'status': 100, 'description': '用户不存在'}
+2021-10-12 10:44:49 Tue , INFO , loginparas.py test18_Login_pwdNull_fail line 227 , sms ge response={'status': 100, 'description': '密码不能为空'}
+2021-10-12 10:44:49 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 233 , sms ge response={'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2021-10-12 10:44:49 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 237 , sms ge response={'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2021-10-12 10:44:49 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 241 , sms ge response={'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2021-10-12 10:44:49 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 245 , sms ge response={'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2021-10-12 10:45:50 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 250 , sms ge response={'status': 200, 'description': '登录成功'}
+2021-10-12 10:46:02 Tue , INFO , loginparas.py test01_get_img_verify_code line 38 , r = 0.6716276868531296 response = <Response [200]>
+2021-10-12 10:46:02 Tue , INFO , loginparas.py test01_get_img_verify_code line 38 , r = 29936458 response = <Response [200]>
+2021-10-12 10:46:02 Tue , INFO , loginparas.py test01_get_img_verify_code line 38 , r =  response = <Response [404]>
+2021-10-12 10:46:02 Tue , INFO , loginparas.py test04_getSmsCode_Success line 52 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:46:02 Tue , INFO , loginparas.py test05_getSmsCode_wrong_imgCode line 67 , sms ge response={'status': 100, 'description': '图片验证码错误'}
+2021-10-12 10:46:03 Tue , INFO , loginparas.py test06_getSmsCode_null_imgCode line 78 , sms ge response={'status': 100, 'description': '图片验证码错误'}
+2021-10-12 10:46:03 Tue , INFO , loginparas.py test07_getSmsCode_null_telNum line 89 , sms ge response={'status': 100}
+2021-10-12 10:46:03 Tue , INFO , loginparas.py test08_getSmsCode_Fail line 97 , sms ge response={'status': 100, 'description': '图片验证码错误'}
+2021-10-12 10:46:03 Tue , INFO , loginparas.py test09_register_params_must line 109 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:46:03 Tue , INFO , loginparas.py test09_register_params_must line 113 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:46:03 Tue , INFO , loginparas.py test10_register_params_all line 125 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:46:03 Tue , INFO , loginparas.py test10_register_params_all line 129 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:46:03 Tue , INFO , loginparas.py test11_register_phone_exist_fail line 140 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:46:03 Tue , INFO , loginparas.py test11_register_phone_exist_fail line 144 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:46:04 Tue , INFO , loginparas.py test12_register_pwdNull_fail line 155 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:46:04 Tue , INFO , loginparas.py test12_register_pwdNull_fail line 159 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:46:04 Tue , INFO , loginparas.py test13_register_errorImgCode_fail line 171 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:46:04 Tue , INFO , loginparas.py test13_register_errorImgCode_fail line 175 , sms ge response={'status': 100, 'description': '验证码错误!'}
+2021-10-12 10:46:04 Tue , INFO , loginparas.py test14_register_errorSmsCode_fail line 188 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:46:04 Tue , INFO , loginparas.py test14_register_errorSmsCode_fail line 192 , sms ge response={'status': 100, 'description': '验证码错误'}
+2021-10-12 10:46:04 Tue , INFO , loginparas.py test15_register_fail line 203 , sms ge response={'status': 200, 'description': '短信发送成功'}
+2021-10-12 10:46:04 Tue , INFO , loginparas.py test15_register_fail line 207 , sms ge response={'status': 100, 'description': '手机已存在!'}
+2021-10-12 10:46:04 Tue , INFO , loginparas.py test16_Login_Sucess line 214 , sms ge response={'status': 200, 'description': '登录成功'}
+2021-10-12 10:46:05 Tue , INFO , loginparas.py test17_Login_userError_fail line 221 , sms ge response={'status': 100, 'description': '用户不存在'}
+2021-10-12 10:46:05 Tue , INFO , loginparas.py test18_Login_pwdNull_fail line 227 , sms ge response={'status': 100, 'description': '密码不能为空'}
+2021-10-12 10:46:05 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 233 , sms ge response={'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2021-10-12 10:46:05 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 237 , sms ge response={'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2021-10-12 10:46:05 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 241 , sms ge response={'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2021-10-12 10:46:05 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 245 , sms ge response={'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2021-10-12 10:47:05 Tue , INFO , loginparas.py test19_Login_pwdError_fail line 250 , sms ge response={'status': 200, 'description': '登录成功'}
