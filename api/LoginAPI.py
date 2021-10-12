@@ -40,7 +40,7 @@ class LoginAPI():
             # 返回数据
             return response
 
-    def Login(self,session,phone='13799768731',pwd='test123'):
+    def Login(self,session,phone='14599768731',pwd='test123'):
         data={
             "keywords":phone,
             "password":pwd

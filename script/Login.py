@@ -7,11 +7,11 @@ import utils
 import  time
 
 class Login(unittest.TestCase):
-    phone = '13799768731'
-    phone2 = '13038799031'
-    phone3 = '13998768639'
-    phone4 = '13569768699'
-    phone5 = '16799968639'
+    phone = '14599768731'
+    phone2 = '11238799031'
+    phone3 = '15698768639'
+    phone4 = '17469768699'
+    phone5 = '19299968639'
     imgVerifyCode = '8888'
     phoneCode = '666666'
     pwd = 'test123'

@@ -11,7 +11,7 @@ from api.trustAPI import trustAPI
 from utils import assert_utils, request_third_api,DButils
 
 class test_tender_process(unittest.TestCase):
-    phone = '13688875636'
+    phone = '13698975636'
     tender_id = 24950
     imVerifyCode = '8888'
 
